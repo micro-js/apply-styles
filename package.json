@@ -1,0 +1,16 @@
+{
+  "name": "@f/apply-styles",
+  "description": "Apply a style object to a DOM node",
+  "repository": "git://github.com/micro-js/apply-styles.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "hihat": "^2.6.4",
+    "tape": "^4.2.2"
+  }
+}
