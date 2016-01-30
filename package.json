@@ -8,7 +8,10 @@
   "scripts": {
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@f/css-default-units": "^1.0.0",
+    "@f/has": "^1.0.0"
+  },
   "devDependencies": {
     "hihat": "^2.6.4",
     "tape": "^4.2.2"
