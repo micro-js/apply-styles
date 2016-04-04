@@ -20,3 +20,13 @@ test('should work', function (t) {
 
   t.end()
 })
+
+test('should work if empty style object is passed', function (t) {
+  var div = document.createElement('div')
+  div.style.width = '20px'
+
+  applyStyles(div, null, {width: '20px'})
+  t.equal(div.style.width, '')
+
+  t.end()
+})
